@@ -30,7 +30,7 @@
 .img-overlay {
     background: rgba(0, 0, 0, 0.75);
     text-align: center;
-    padding: 80px 5px 74px 5px;
+    padding: 80px 5px 90px 5px;
     opacity: 0;
     -webkit-transition: opacity 0.25s ease;
     -moz-transition: opacity 0.25s ease;
@@ -45,10 +45,16 @@
     height: 50px;
 }
 
+.img-overlay .flex-container{
+    margin-top: 6px;
+}
+
+
 .img-overlay .flex-container img:hover{
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 }
+
 
 
 .img-box:hover .img-overlay {
@@ -108,6 +114,8 @@
     display: flex;
     justify-content: center;
 }
+
+
 
 .center-row{
     text-align: center;
