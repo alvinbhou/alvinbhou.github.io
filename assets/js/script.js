@@ -43,7 +43,6 @@ $(document).ready(function(){
     /* contract info highlight */
     $('.contact-container .contact-icon-wrapper')
         .mouseenter(function () {
-            console.log($(this));
             $(this).next().find('a').addClass('hovered');
         })
         .mouseleave(function () {
@@ -52,7 +51,7 @@ $(document).ready(function(){
 
     /* scroll to top support */
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 1000) {
+        if ($(this).scrollTop() > 1440) {
             $('.scroll2top').fadeIn();
         } else {
             $('.scroll2top').fadeOut();
