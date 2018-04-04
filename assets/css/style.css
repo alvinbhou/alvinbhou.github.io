@@ -1,0 +1,136 @@
+
+.small {
+		font-size: 0.9em;
+	}
+
+.icon i {
+    font-size: 0.8em;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+
+.img-box {
+    /* /* width: 300px; */
+    height: 250px;
+    /* box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+        border-bottom: 2px solid #fff;
+        border-right: 2px solid #fff; */
+    /* margin: 5% auto 0 auto; */
+    /* background: url('images/pcbot_demo.jpg'); */
+    background-size: cover!important;
+    /* border-radius: 5px; */
+    overflow: hidden;
+    box-shadow: 0 2px 0px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 		1px -2px rgba(0,0,0,0.2);
+}
+
+.img-overlay {
+    background: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 80px 5px 74px 5px;
+    opacity: 0;
+    -webkit-transition: opacity 0.25s ease;
+    -moz-transition: opacity 0.25s ease;
+}
+
+.img-overlay a {
+    text-decoration: none!important;
+    color: #2196F3 !important;
+}
+
+.img-overlay img {
+    height: 50px;
+}
+
+.img-overlay .flex-container img:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.img-box:hover .img-overlay {
+    opacity: 1;
+}
+
+
+.img-mask {
+    font-family: Helvetica;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+}
+
+
+.img-box-footer {
+    /* background-color: darkgray; */
+    color: #fff;
+    overflow: hidden;
+    padding: 2%;
+    /* box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45); */
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 		1px -2px rgba(0,0,0,0.2);
+        
+}
+
+.img-box-footer a{
+    text-decoration: none!important;
+    color: #000 !important;
+}
+
+.img-box-footer a:hover{
+    color: #2196F3 !important;
+}
+
+.table-responsive {
+    width: 100%;
+}
+
+.table>tbody>tr>td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table p {
+    margin-bottom: 1.1em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.center-row{
+    text-align: center;
+    width: 100%;
+}
+
+.table div {
+    margin-bottom: 2px;
+}
+
+.info-text {
+    color: #000;
+}
+
+.contact-icon{
+    height: 80px;
+}
+
+.contact-container a{
+    text-decoration: none!important;
+    color: #000 !important;
+}
+
+.contact-container a:hover{
+    color: #2196F3 !important;
+}
