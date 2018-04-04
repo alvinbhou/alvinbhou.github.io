@@ -52,7 +52,7 @@ $(document).ready(function(){
 
     /* scroll to top support */
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 2000) {
+        if ($(this).scrollTop() > 1000) {
             $('.scroll2top').fadeIn();
         } else {
             $('.scroll2top').fadeOut();
