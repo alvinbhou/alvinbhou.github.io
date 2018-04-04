@@ -39,5 +39,15 @@ $(document).ready(function(){
         },
         
     });
+
+    $('.contact-container .contact-icon-wrapper')
+        .mouseenter(function () {
+            console.log($(this));
+            $(this).next().find('a').addClass('hovered');
+        })
+        .mouseleave(function () {
+            $(this).next().find('a').removeClass('hovered');
+        });
+   
 });
 

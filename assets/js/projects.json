@@ -26,7 +26,7 @@
                 "icon-url": "assets/icons/gpumine-icon.png"
             }
         ],
-        "background-img": "images/gpumine-demo.jpg"
+        "background-img": "images/gpumine-pool_demo.png"
     },
     {
         "title": "雲遊學 Story Map",
@@ -42,7 +42,7 @@
                 "icon-url": "assets/icons/storymap-icon.png"
             }
         ],
-        "background-img": "images/storymap_demo.jpg"
+        "background-img": "images/storymap_demo.png"
     },
     {
         "title": "Anime Face ACGAN",
