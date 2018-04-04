@@ -40,6 +40,7 @@ $(document).ready(function(){
         
     });
 
+    /* contract info highlight */
     $('.contact-container .contact-icon-wrapper')
         .mouseenter(function () {
             console.log($(this));
@@ -48,6 +49,22 @@ $(document).ready(function(){
         .mouseleave(function () {
             $(this).next().find('a').removeClass('hovered');
         });
+
+    /* scroll to top support */
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 2000) {
+            $('.scroll2top').fadeIn();
+        } else {
+            $('.scroll2top').fadeOut();
+        }
+    });
+
+    $('.scroll2top').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
    
 });
 
