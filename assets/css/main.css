@@ -759,6 +759,9 @@
 		font-weight: 300;
 		color: #777777;
 	}
+	body.dark {
+		background-image: url("images/overlay.png"), url("images/bg2.png");
+	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-transition: none !important;

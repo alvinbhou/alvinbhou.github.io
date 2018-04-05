@@ -9,10 +9,10 @@
 	var settings = {
 
 		// Speed to resize panel.
-			resizeSpeed: 600,
+			resizeSpeed: 500,
 
 		// Speed to fade in/out.
-			fadeSpeed: 300,
+			fadeSpeed: 200,
 
 		// Size factor.
 			sizeFactor: 11.5,

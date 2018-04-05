@@ -62,7 +62,12 @@ $(document).ready(function(){
         $("html, body").animate({
             scrollTop: 0
         }, 600);
+        $(this).blur();
         return false;
+    });
+
+    $('.main-desc-icon').click(function (params) {
+        $('body').toggleClass('dark');
     });
    
 });

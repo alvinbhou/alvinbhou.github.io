@@ -7,11 +7,30 @@
     font-size: 0.8em;
 }
 
-.icon-link {
+.main-desc-icon{
     text-decoration: none;
-    color: #2196F3;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 0.9em;
 }
 
+.main-desc-icon:hover{
+    color: #333;
+}
+
+body.dark .main-desc-icon:hover{
+    color: #64B5F6;
+}
+
+
+.icon-link {
+    text-decoration: none;
+    color: #64B5F6;
+}
+
+.icon-link:hover {
+    color: #2196F3;
+}
 
 .img-box {
     /* /* width: 300px; */
@@ -28,7 +47,7 @@
 }
 
 .img-overlay {
-    cursor: context-menu;
+    cursor: default;
     background: rgba(0, 0, 0, 0.75);
     text-align: center;
     padding: 80px 5px 90px 5px;
