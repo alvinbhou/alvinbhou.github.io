@@ -4,7 +4,7 @@ $(document).ready(function(){
         url: 'assets/js/projects.json',
         dataType: 'json',
         success: function (data) {
-			console.log(data);
+			// console.log(data);
 			for(var i = 0; i < data.length; ++i){
 				var $target;
 				if(i == 0){
