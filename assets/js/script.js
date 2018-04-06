@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+    /* ajax get project info */
 	$.ajax({
         url: 'assets/js/projects.json',
         dataType: 'json',
@@ -39,7 +40,7 @@ $(document).ready(function(){
         },
         
     });
-
+ 
     /* contract info highlight */
     $('.contact-container .contact-icon-wrapper')
         .mouseenter(function () {
