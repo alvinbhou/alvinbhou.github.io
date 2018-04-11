@@ -203,3 +203,9 @@ body.dark .main-desc-icon:hover{
     left: 50%;
     margin-left: -37.5%;
 }
+
+#preload-area{
+    background: url(/assets/css/images/bg_dark.png);
+    display: none;
+}
+
