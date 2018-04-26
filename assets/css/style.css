@@ -63,6 +63,7 @@ body.dark .main-desc-icon:hover{
 
 .img-overlay img {
     height: 50px;
+    margin-right: 5px;
 }
 
 .img-overlay .flex-container{

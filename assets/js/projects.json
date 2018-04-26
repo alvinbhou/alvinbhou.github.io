@@ -29,6 +29,26 @@
         "background-img": "images/gpumine-pool_demo.png"
     },
     {
+        "title": "NTU Course Bot",
+        "description": "台大課程機器人 Messenger, Telegram bot providing NTU course information",
+        "url": "https://github.com/CryoliteZ/NTU-Course-Bot",
+        "links": [
+            {
+                "url": "hhttps://github.com/CryoliteZ/NTU-Course-Bot",
+                "icon-url": "assets/icons/github-icon.png"
+            },
+            {
+                "url": "https://www.facebook.com/NTU-Course-Bot-853483114844867/",
+                "icon-url": "assets/icons/messenger-icon.png"
+            },
+            {
+                "url": "https://t.me/ntucoursebot",
+                "icon-url": "assets/icons/telegram-icon.png"
+            }
+        ],
+        "background-img": "images/ntucoursebot_demo.jpg"
+    },
+    {
         "title": "雲遊學 Story Map",
         "description": "A geographic based photo gallery for an educational media platform",
         "url": "https://github.com/CryoliteZ/sweet-bot",
