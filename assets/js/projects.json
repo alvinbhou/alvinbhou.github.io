@@ -29,6 +29,26 @@
         "background-img": "images/gpumine-pool_demo.png"
     },
     {
+        "title": "0x Donate",
+        "description": "An Ethereum donate service for streamers",
+        "url": "https://0xdonate.io",
+        "links": [
+            {
+                "url": "https://0xdonate.io/",
+                "icon-url": "/assets/icons/0xdonate-icon.png"
+            },
+            {
+                "url": "https://github.com/CryoliteZ/0xDonate",
+                "icon-url": "assets/icons/github-icon.png"
+            },
+            {
+                "url": "https://medium.com/taipei-ethereum-meetup/0xdonate-an-ethereum-donate-service-for-streamers-a370f2b8f488",
+                "icon-url": "assets/icons/medium-icon.png"
+            }
+        ],
+        "background-img": "images/0xdonate_demo.png"
+    },
+    {
         "title": "NTU Course Bot",
         "description": "台大課程機器人 Messenger, Telegram bot providing NTU course information",
         "url": "https://github.com/CryoliteZ/NTU-Course-Bot",
@@ -49,6 +69,18 @@
         "background-img": "images/ntucoursebot_demo.jpg"
     },
     {
+        "title": "Anime Face ACGAN",
+        "description": "ACGAN that generates anime faces",
+        "url": "https://github.com/CryoliteZ/Anime-Face-ACGAN",
+        "links": [
+            {
+                "url": "https://github.com/CryoliteZ/Anime-Face-ACGAN",
+                "icon-url": "assets/icons/github-icon.png"
+            }
+        ],
+        "background-img": "images/anime_ACGAN_demo.png"
+    },
+    {
         "title": "雲遊學 Story Map",
         "description": "A geographic based photo gallery for an educational media platform",
         "url": "https://github.com/CryoliteZ/sweet-bot",
@@ -65,18 +97,6 @@
         "background-img": "images/storymap_demo.png"
     },
     {
-        "title": "Anime Face ACGAN",
-        "description": "ACGAN that generates anime faces",
-        "url": "https://github.com/CryoliteZ/Anime-Face-ACGAN",
-        "links": [
-            {
-                "url": "https://github.com/CryoliteZ/Anime-Face-ACGAN",
-                "icon-url": "assets/icons/github-icon.png"
-            }
-        ],
-        "background-img": "images/anime_ACGAN_demo.png"
-    },
-    {
         "title": "Sweet Bot",
         "description": "A LINE chatbot to help <a href=\"https://www.facebook.com/sweet51909/\">甜裡開始 </a> /w IBM Watson",
         "url": "https://github.com/CryoliteZ/sweet-bot",
@@ -87,29 +107,8 @@
             }
         ],
         "background-img": "images/sweetbot_demo.jpg"
-    },{
-        "title": "Sweet Web",
-        "description": "A visually impaired friendly web project, aim to help <a href=\"https://www.facebook.com/sweet51909/\">甜裡開始 </a> /w VoiceOver",
-        "url": "https://github.com/CryoliteZ/Sweet-Web",
-        "links": [
-            {
-                "url": "https://github.com/CryoliteZ/Sweet-Web",
-                "icon-url": "assets/icons/github-icon.png"
-            }
-        ],
-        "background-img": "images/sweetweb_demo.jpg"
-    },{
-        "title": "GPUMining Bot",
-        "description": "Cross platform chatbot providing information for gpumining and crypto prices",
-        "url": "https://github.com/CryoliteZ/gpu-mining-bot",
-        "links": [
-            {
-                "url": "https://github.com/CryoliteZ/gpu-mining-bot",
-                "icon-url": "assets/icons/github-icon.png"
-            }
-        ],
-        "background-img": "images/gpumine-bot_demo.png"
-    },{
+    },
+    {
         "title": "Interactive-Social-TV-Client",
         "description": "Interactive-Social-TV's Android app, won 1st place at 搶鮮大賽",
         "url": "https://github.com/CryoliteZ/Interactive-Social-TV-Client",
