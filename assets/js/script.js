@@ -1,5 +1,53 @@
 
 $(document).ready(function(){
+    /* ajax experiences */
+
+    function expTemplate(at, title, time, link){
+        var template = `
+        <tr>
+            <td>
+                <div class='info-text'>
+                    ${at}
+                    <span style="display:${link ? "inline-block" : "none"}">
+                        <a class='icon-link' href="${link}">
+                            <i class="fas fa-link"></i>
+                        </a>
+                    </span>
+                </div>
+                <div>
+                    <p class='small'>${title}</p>
+                </div>
+            </td>
+            <td>${time}</td>
+        </tr>
+        `;
+        return template;
+    }
+    $.ajax({
+        url: 'assets/js/exp.json',
+        dataType: 'json',
+        success: function (data) {
+            var work = data['work'];
+            var $work = $('#work-table tbody');
+            console.log(work);
+            for(var i = 0; i < work.length; ++i){
+                $work.append(expTemplate(work[i].at, work[i].title, work[i].time, work[i].link));
+            }
+
+            var event = data['event'];
+            var $event = $('#event-table tbody');
+            for(var i = 0; i < event.length; ++i){
+                $event.append(expTemplate(event[i].at, event[i].title, event[i].time, event[i].link));
+            }
+
+            // resize #exp panel
+			if($('#nav a.active').attr('href') == '#exp'){
+				var $main = $('#main');
+				$main.height($('#exp.panel').outerHeight());
+			}
+        }
+    });
+
     /* ajax get project info */
 	$.ajax({
         url: 'assets/js/projects.json',

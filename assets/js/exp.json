@@ -1,0 +1,68 @@
+{
+    "work":[
+        {
+            "at": "IBM Global Business Service, UX team",
+            "title": "Frontend Developer Intern",
+            "time": "Aug 2017 - Jun 2018"
+        },
+        {
+            "at": "Industrial Technology Research Institute",
+            "title": "Deep Learning Research Intern",
+            "time": "Aug 2017 - Feb 2018"
+        },
+        {
+            "at": "Industrial Technology Research Institute",
+            "title": "Software Engineering Intern",
+            "time": "Jul 2016 - Jun 2018"
+        },
+        {
+            "at": "National Taiwan University",
+            "title": "Teaching Assistant of Calculus",
+            "time": "Sep 2015 - Jun 2016"
+        }
+    ],
+    "event":[
+        {
+            "at": "g0v Summit",
+            "title": "Participant",
+            "time": "2018",
+            "link": "https://g0v.tw/"
+        },
+        {
+            "at": "COSCUP",
+            "title": "Participant",
+            "time": "2018, 2017",
+            "link": "http://blog.coscup.org/"
+        },
+        {
+            "at": "Code.org",
+            "title": "Interpreter",
+            "time": "Mar 2017 - Jun 2018"
+        },
+        {
+            "at": "Taipei Ethereum Meetup",
+            "title": "Writer",
+            "time": "Mar 2017 - Present",
+            "link": "https://medium.com/taipei-ethereum-meetup"
+        },
+        {
+            "at": "Make NTU Hackathon",
+            "title": "Participant",
+            "time": "2017",
+            "link":"https://www.facebook.com/makentu.ntuee/"
+        },
+        {
+            "at": "Innovation Café",
+            "title": "Speaker",
+            "time": "Mar 18th, 2016",
+            "link": "http://innovate.im.ntu.edu.tw/InnovationCafe"
+        },
+        {
+            "at": "NTUOSC",
+            "title": "Member",
+            "time": "2016",
+            "link": "https://ntuosc.org/"
+        }
+    ]
+    
+}

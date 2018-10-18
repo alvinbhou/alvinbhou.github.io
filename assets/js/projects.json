@@ -16,18 +16,7 @@
         "background-img": "images/pcbot_demo.jpg"
 
     },
-    {
-        "title": "GPUMining Ethereum Pool",
-        "description": "Taiwan's largest Ethereum mining pool website",
-        "url": "https://eth-tw.gpumine.org/",
-        "links": [
-            {
-                "url": "https://eth-tw.gpumine.org/",
-                "icon-url": "assets/icons/gpumine-icon.png"
-            }
-        ],
-        "background-img": "images/gpumine-pool_demo.png"
-    },
+
     {
         "title": "0x Donate",
         "description": "An Ethereum donate service for streamers",
@@ -67,6 +56,46 @@
             }
         ],
         "background-img": "images/ntucoursebot_demo.jpg"
+    },
+    {
+        "title": "Digital Collection Autocomplete",
+        "description": "A supporting project for Ministry of Culture's 數位典藏完備計畫",
+        "url": "https://github.com/CryoliteZ/Digital-Collection-Autocomplete",
+        "links": [
+            {
+                "url": "https://github.com/CryoliteZ/Digital-Collection-Autocomplete",
+                "icon-url": "assets/icons/github-icon.png"
+            },
+            {
+                "url": "https://cryolitez.github.io/Digital-Collection-Autocomplete",
+                "icon-url": "assets/icons/DAC-icon.png"
+            }
+        ],
+        "background-img": "images/dac_demo.jpg"
+    },
+    {
+        "title": "Video-to-Text",
+        "description": " An Encoder-Decoder Model for Sequence-to-Sequence learning: Video2Text",
+        "url": "https://github.com/CryoliteZ/Video2Text",
+        "links": [
+            {
+                "url": "https://github.com/CryoliteZ/Video2Text",
+                "icon-url": "assets/icons/github-icon.png"
+            }
+        ],
+        "background-img": "https://raw.githubusercontent.com/CryoliteZ/Video2Text/master/images/778mkceE0UQ_40_46.gif"
+    },
+    {
+        "title": "GPUMining Ethereum Pool",
+        "description": "Taiwan's largest Ethereum mining pool website",
+        "url": "https://eth-tw.gpumine.org/",
+        "links": [
+            {
+                "url": "https://eth-tw.gpumine.org/",
+                "icon-url": "assets/icons/gpumine-icon.png"
+            }
+        ],
+        "background-img": "images/gpumine-pool_demo.png"
     },
     {
         "title": "Anime Face ACGAN",
@@ -109,7 +138,7 @@
         "background-img": "images/sweetbot_demo.jpg"
     },
     {
-        "title": "Interactive-Social-TV-Client",
+        "title": "Interactive Social TV Client",
         "description": "Interactive-Social-TV's Android app, won 1st place at 搶鮮大賽",
         "url": "https://github.com/CryoliteZ/Interactive-Social-TV-Client",
         "links": [

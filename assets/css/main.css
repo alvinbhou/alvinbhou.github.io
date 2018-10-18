@@ -752,7 +752,8 @@
 /* Basic */
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg_main.jpg");
+		/* background-image: url("images/overlay.png"), url("images/bg_main.jpg"); */
+		background: #333;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1330,6 +1331,7 @@
 
 						#nav a.active:after {
 							border-bottom-width: 0.5em;
+							z-index: 2;
 						}
 
 		/* Panels */
@@ -1389,6 +1391,7 @@
 						-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 						-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						border-radius: 18px 0 0 18px;
 					}
 
 						#me .pic .arrow:before {
