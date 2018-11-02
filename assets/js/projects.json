@@ -2,24 +2,26 @@
     {
         "title": "Plants Identification",
         "url": "https://github.com/CryoliteZ/Plants-Identification",
-        "description": "Deep learning project of plants classification and boxing with chatbot implementation",
+        "description": "Deep learning project of Taiwan endemic plants classification and boxing with chatbot implementation",
         "links": [
-            {
-                "url": "https://github.com/CryoliteZ/Plants-Identification",
-                "icon-url": "assets/icons/github-icon.png"
-            },
             {
                 "url": "https://t.me/Plant_Classification_Bot",
                 "icon-url": "assets/icons/telegram-icon.png"
+            },
+            {
+                "url": "https://github.com/CryoliteZ/Plants-Identification",
+                "icon-url": "assets/icons/github-icon.png"
             }
         ],
-        "background-img": "images/pcbot_demo.jpg"
+        "background-img": "images/pcbot_demo.jpg",
+        "tags": [0,1]
 
     },
 
     {
         "title": "0x Donate",
         "description": "An Ethereum donate service for streamers",
+        "description-long": "A decentrailized donate service for streamers, based on Ethereum Smart Contract. 0 fee, 0 setup, only a 0x address required.",
         "url": "https://0xdonate.io",
         "links": [
             {
@@ -27,25 +29,23 @@
                 "icon-url": "/assets/icons/0xdonate-icon.png"
             },
             {
-                "url": "https://github.com/CryoliteZ/0xDonate",
-                "icon-url": "assets/icons/github-icon.png"
-            },
-            {
                 "url": "https://medium.com/taipei-ethereum-meetup/0xdonate-an-ethereum-donate-service-for-streamers-a370f2b8f488",
                 "icon-url": "assets/icons/medium-icon.png"
+            },{
+                "url": "https://github.com/CryoliteZ/0xDonate",
+                "icon-url": "assets/icons/github-icon.png"
             }
         ],
         "background-img": "images/0xdonate_demo.png"
     },
     {
         "title": "NTU Course Bot",
-        "description": "台大課程機器人 Messenger, Telegram bot providing NTU course information",
+        "description": "Messenger, Telegram bot providing NTU course information (台大課程機器人)",
+        "description-long": "Messenger, Telegram bot providing NTU courses historical grade distribution and detailed information. (台大課程機器人)",
+
         "url": "https://github.com/CryoliteZ/NTU-Course-Bot",
         "links": [
-            {
-                "url": "https://github.com/CryoliteZ/NTU-Course-Bot",
-                "icon-url": "assets/icons/github-icon.png"
-            },
+            
             {
                 "url": "https://www.facebook.com/NTU-Course-Bot-853483114844867/",
                 "icon-url": "assets/icons/messenger-icon.png"
@@ -53,26 +53,16 @@
             {
                 "url": "https://t.me/ntucoursebot",
                 "icon-url": "assets/icons/telegram-icon.png"
-            }
-        ],
-        "background-img": "images/ntucoursebot_demo.jpg"
-    },
-    {
-        "title": "Digital Collection Autocomplete",
-        "description": "A supporting project for Ministry of Culture's 數位典藏完備計畫",
-        "url": "https://github.com/CryoliteZ/Digital-Collection-Autocomplete",
-        "links": [
-            {
-                "url": "https://github.com/CryoliteZ/Digital-Collection-Autocomplete",
-                "icon-url": "assets/icons/github-icon.png"
             },
             {
-                "url": "https://cryolitez.github.io/Digital-Collection-Autocomplete",
-                "icon-url": "assets/icons/DAC-icon.png"
+                "url": "https://github.com/CryoliteZ/NTU-Course-Bot",
+                "icon-url": "assets/icons/github-icon.png"
             }
         ],
-        "background-img": "images/dac_demo.jpg"
+        "background-img": "images/ntucoursebot_demo.jpg",
+        "tags": [1]
     },
+    
     {
         "title": "Video-to-Text",
         "description": " An Encoder-Decoder Model for Sequence-to-Sequence learning: Video2Text",
@@ -83,19 +73,9 @@
                 "icon-url": "assets/icons/github-icon.png"
             }
         ],
-        "background-img": "https://raw.githubusercontent.com/CryoliteZ/Video2Text/master/images/778mkceE0UQ_40_46.gif"
-    },
-    {
-        "title": "GPUMining Ethereum Pool",
-        "description": "Taiwan's largest Ethereum mining pool website",
-        "url": "https://eth-tw.gpumine.org/",
-        "links": [
-            {
-                "url": "https://eth-tw.gpumine.org/",
-                "icon-url": "assets/icons/gpumine-icon.png"
-            }
-        ],
-        "background-img": "images/gpumine-pool_demo.png"
+        "background-img": "https://raw.githubusercontent.com/CryoliteZ/Video2Text/master/images/778mkceE0UQ_40_46.gif",
+        "tags": [0]
+    
     },
     {
         "title": "Anime Face ACGAN",
@@ -107,27 +87,85 @@
                 "icon-url": "assets/icons/github-icon.png"
             }
         ],
-        "background-img": "images/anime_ACGAN_demo.png"
+        "background-img": "images/anime_ACGAN_demo.png",
+        "tags": [0]
     },
+    {
+        "title": "MaTerialgram",
+        "description": "Extension to redesign Telegram with the new Material Design, providing dark and light theme",
+        "url": "https://github.com/CryoliteZ/MaTerialgram/",
+        "links": [
+            {
+                "url": "https://chrome.google.com/webstore/detail/aebgckccbkgbeigkkdglihleeipanoan",
+                "icon-url": "https://i.imgur.com/zv5G8Ly.png"
+            },
+            {
+                "url": "https://addons.mozilla.org/en-US/firefox/addon/materialgram/",
+                "icon-url": "https://i.imgur.com/M6KOVju.png"
+            },
+            {
+                "url": "https://github.com/CryoliteZ/MaTerialgram/",
+                "icon-url": "assets/icons/github-icon.png"                
+            }
+        ],
+        "background-img": "images/MaTerialgram.png",
+        "tags": [2]
+    },
+    {
+        "title": "GPUMining Ethereum Pool",
+        "description": "Taiwan's largest Ethereum mining pool website",
+        "url": "https://eth-tw.gpumine.org/",
+        "links": [
+            {
+                "url": "https://eth-tw.gpumine.org/",
+                "icon-url": "assets/icons/gpumine-icon.png",
+                "dark-icon-url": "assets/icons/gpumine-icon-dark.png"
+            }
+        ],
+        "background-img": "images/gpumine-pool_demo.png",
+        "tags": [2]
+    },
+    {
+        "title": "Digital Collection Autocomplete",
+        "description": "A supporting project for Ministry of Culture's 數位典藏完備計畫",
+        "description-long": "A supporting project for Ministry of Culture's 'Digital Collection Plan'. Helps researchers to improve productivity.",
+        "url": "https://github.com/CryoliteZ/Digital-Collection-Autocomplete",
+        "links": [
+            {
+                "url": "https://cryolitez.github.io/Digital-Collection-Autocomplete",
+                "icon-url": "assets/icons/DAC-icon.png",
+                "dark-icon-url": "assets/icons/DAC-icon-dark.png"
+            },
+            {
+                "url": "https://github.com/CryoliteZ/Digital-Collection-Autocomplete",
+                "icon-url": "assets/icons/github-icon.png"                
+            }
+        ],
+        "background-img": "images/dac_demo.jpg",
+        "tags": [2]
+    },
+    
     {
         "title": "雲遊學 Story Map",
         "description": "A geographic based photo gallery for an educational media platform",
         "url": "https://github.com/CryoliteZ/sweet-bot",
         "links": [
-            {
-                "url": "https://github.com/CryoliteZ/storymapweb",
-                "icon-url": "assets/icons/github-icon.png"
-            },
+           
             {
                 "url": "https://cloudplay.fetscs.tw/channel/view?id=e1a7f785-9bd3-4b2f-973a-a5e7d619fa6b&tab=storymap",
                 "icon-url": "assets/icons/storymap-icon.png"
+            }, 
+            {
+                "url": "https://github.com/CryoliteZ/storymapweb",
+                "icon-url": "assets/icons/github-icon.png"
             }
         ],
-        "background-img": "images/storymap_demo.png"
+        "background-img": "images/storymap_demo.png",
+        "tags": [2]
     },
     {
         "title": "Sweet Bot",
-        "description": "A LINE chatbot to help <a href=\"https://www.facebook.com/sweet51909/\">甜裡開始 </a> /w IBM Watson",
+        "description": "A LINE chatbot to help <a href=\"https://www.facebook.com/sweet51909/\">甜裡開始 cafe </a>, integrating IBM Watson NLP",
         "url": "https://github.com/CryoliteZ/sweet-bot",
         "links": [
             {
@@ -135,19 +173,21 @@
                 "icon-url": "assets/icons/github-icon.png"
             }
         ],
-        "background-img": "images/sweetbot_demo.jpg"
+        "background-img": "images/sweetbot_demo.jpg",
+        "tags": [1]
     },
     {
-        "title": "Interactive Social TV Client",
-        "description": "Interactive-Social-TV's Android app, won 1st place at 搶鮮大賽",
-        "url": "https://github.com/CryoliteZ/Interactive-Social-TV-Client",
+        "title": "HTC DeepQ Weakly Learning",
+        "description": "Weakly Supervised Learning for Findings Detection in Medical Image",
+        "url": "https://github.com/CryoliteZ/HTC-DeepQ-Weakly-Learning",
         "links": [
             {
-                "url": "https://github.com/CryoliteZ/Interactive-Social-TV-Client",
+                "url": "https://github.com/CryoliteZ/HTC-DeepQ-Weakly-Learning",
                 "icon-url": "assets/icons/github-icon.png"
             }
         ],
-        "background-img": "images/istv_client_demo.png"
+        "background-img": "https://i.imgur.com/RIfhKNb.png",
+        "tags": [0]
     }
     
 ]
