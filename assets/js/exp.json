@@ -13,7 +13,7 @@
         {
             "at": "Industrial Technology Research Institute",
             "title": "Software Engineering Intern",
-            "time": "Jul 2016 - Jun 2018"
+            "time": "Jul 2016 - Jun 2017"
         },
         {
             "at": "National Taiwan University",
@@ -23,6 +23,12 @@
     ],
     "event":[
         {
+            "at": "Taipei Ethereum Meetup",
+            "title": "Writer",
+            "time": "Mar 2017 - Present",
+            "link": "https://medium.com/taipei-ethereum-meetup"
+        },
+        {
             "at": "g0v Summit",
             "title": "Participant",
             "time": "2018",
@@ -31,19 +37,19 @@
         {
             "at": "COSCUP",
             "title": "Participant",
-            "time": "2018, 2017",
+            "time": "2017, 2018",
             "link": "http://blog.coscup.org/"
+        },
+        {
+            "at": "NTUOSC",
+            "title": "Member",
+            "time": "2016 - 2018",
+            "link": "https://ntuosc.org/"
         },
         {
             "at": "Code.org",
             "title": "Interpreter",
-            "time": "Mar 2017 - Jun 2018"
-        },
-        {
-            "at": "Taipei Ethereum Meetup",
-            "title": "Writer",
-            "time": "Mar 2017 - Present",
-            "link": "https://medium.com/taipei-ethereum-meetup"
+            "time": "Mar 2017 - Jun 2017"
         },
         {
             "at": "Make NTU Hackathon",
@@ -56,12 +62,6 @@
             "title": "Speaker",
             "time": "Mar 18th, 2016",
             "link": "http://innovate.im.ntu.edu.tw/InnovationCafe"
-        },
-        {
-            "at": "NTUOSC",
-            "title": "Member",
-            "time": "2016",
-            "link": "https://ntuosc.org/"
         }
     ]
     
