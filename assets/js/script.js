@@ -24,7 +24,7 @@ $(document).ready(function(){
     }
 
     function tagTemplate(tag_class){
-        let tags = ["DL", "Chatbot", "Web"];
+        let tags = ["DL", "Chatbot", "Web", "Support"];
         var template = `
         <div class="proj-list-tag-container">
             <span class="proj-list-tag tag${tag_class}">${tags[tag_class]}</span>
