@@ -2,6 +2,10 @@
     font-size: 0.9em;
 }
 
+.education-info-container{
+   margin: 0 0 30px 0;
+}
+
 article {
     border-radius: 1em;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -159,7 +163,8 @@ body.dark .main-desc-icon:hover{
 }
 
 .proj-list-name a{
-    color: rgba(0,0,0,0.93);
+    /* color: rgba(0,0,0,0.93); */
+    color: #2962FF;
     font-size: 1.05em;
 }
 
@@ -254,6 +259,15 @@ body.dark .main-desc-icon:hover{
 
 .table div {
     margin-bottom: 2px;
+}
+
+.proj-container-list.template{
+    display: none;
+}
+.award-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
 }
 
 .info-text {

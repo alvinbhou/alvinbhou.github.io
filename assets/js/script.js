@@ -38,7 +38,6 @@ $(document).ready(function(){
         success: function (data) {
             var work = data['work'];
             var $work = $('#work-table tbody');
-            console.log(work);
             for(var i = 0; i < work.length; ++i){
                 $work.append(expTemplate(work[i].at, work[i].title, work[i].time, work[i].link));
             }
@@ -62,7 +61,90 @@ $(document).ready(function(){
         url: 'assets/js/projects.json',
         dataType: 'json',
         success: function (data) {
-			// console.log(data);
+            /* Web list view */
+            let $proj_section = $('.proj-section');
+            for(let i = 0; i < data.length; ++i){
+                let $list_target = $('.proj-container-list.template:first').clone().removeClass('template');
+                $list_target.find('.proj-category').text(data[i]['category']);
+                for(let j = 0; j < data[i]['lists'].length; ++j){
+                    let $target;
+                    if(j == 0){
+                        $target = $list_target.find('.proj-component-list:first');
+                    }
+                    else{
+                        $target = $list_target.find('.proj-component-list:first').clone();
+                    }
+                    let proj_data = data[i]['lists'][j]
+                    $target.find('.img-box-small-container').attr('href',proj_data["url"]);
+                    $target.find('.img-box-small').css('background', 'url(' + proj_data["background-img"] + ')');
+                    $target.find('.proj-list-name a').text(proj_data["title"]);
+                    $target.find('.proj-list-name a').attr('href', proj_data["url"]);
+                    if(proj_data["description-long"]){
+                        $target.find('.proj-list-description-info').html(proj_data["description-long"]);
+                    }
+                    else{
+                        $target.find('.proj-list-description-info').html(proj_data["description"]);
+                    }
+                    var linkContainer = $target.find('.proj-list-links');
+                    linkContainer.empty();
+                    for(var k = 0; k < proj_data['links'].length; ++k){
+                        var link = proj_data['links'][k];
+                        if(link["dark-icon-url"]){
+                            linkContainer.append('<a href="'+ link["url"] +'"> <img src ="' + link["dark-icon-url"] +'"/>')
+                        }
+                        else{
+                            linkContainer.append('<a href="'+ link["url"] +'"> <img src ="' + link["icon-url"] +'"/>')
+                        }
+                    }
+                    $target.find(".proj-list-tag-container").remove();
+                    if(proj_data["tags"]){
+                        for(var k = 0; k< proj_data["tags"].length; ++k){
+                            $target.find(".proj-description-container").append(tagTemplate(proj_data["tags"][k]));
+                        }
+                    }  
+                    if(j != 0){
+                        $list_target.append($target);
+                    }
+                }
+                $proj_section.append($list_target);
+
+                
+            }
+
+            /* Phone view */
+            for(let i = 0; i < data.length; ++i){
+                for(let j = 0; j < data[i]['lists'].length; ++j){
+                    let $target;
+                    if((j || i ) == 0 ){
+                        $target= $('.proj-container .proj-component:first');
+                    }
+                    else{
+                        $target = $('.proj-container .proj-component:first').clone();
+                    }
+                    let proj_data = data[i]['lists'][j];
+                    $target.find('.img-box').css('background', 'url(' + proj_data["background-img"] + ')');
+                    $target.find('.proj-title a').text(proj_data["title"]);
+                    $target.find('.proj-title a').attr('href', proj_data["url"]);
+                    $target.find('.proj-description').html(proj_data["description"]);
+                    var linkContainer = $target.find('.proj-links');
+                    linkContainer.empty();
+                    for(var k = 0; k < proj_data['links'].length; ++k){
+                        var link = proj_data['links'][k];
+                        linkContainer.append('<a href="'+ link["url"] +'"> <img src ="' + link["icon-url"] +'"/>')
+                    }
+                    if((j || i ) != 0){
+                        $('.proj-container').append($target);
+                    }
+                }
+            }
+            // resize #project panel
+			if($('#nav a.active').attr('href') == '#projects'){
+				var $main = $('#main');
+				$main.height($('#projects.panel').outerHeight());
+			}
+
+            return;
+
 			for(var i = 0; i < data.length; ++i){
 				var $target;
 				if(i == 0){
@@ -124,11 +206,7 @@ $(document).ready(function(){
                 }
                 
 			}
-			// resize #project panel
-			if($('#nav a.active').attr('href') == '#projects'){
-				var $main = $('#main');
-				$main.height($('#projects.panel').outerHeight());
-			}
+			
 			
         },
         error: function () {
