@@ -73,7 +73,7 @@
         }]
     },
     {
-        "category": "Blockchain and DApps",
+        "category": "Smart Contract and DApps",
         "lists": [
             {
                 "title": "0x Donate",
@@ -223,7 +223,7 @@
             {
                 "title": "Cloudplay Story Map",
                 "description": "A geographic based photo gallery for Cloudplay, Taiwan's largest educational media platform",
-                "url": "https://github.com/CryoliteZ/sweet-bot",
+                "url": "https://github.com/CryoliteZ/storymapweb",
                 "links": [
                    
                     {
