@@ -2,6 +2,18 @@
     {
         "category": "Machine Learning and Deep Learning",
         "lists": [{
+            "title": "Nature Language Understanding with BERT and Sling",
+            "url": "http://aics.nctu.me:3000/",
+            "description": "Implemented Multi-Task Learning BERT models to predict speech acts. Optimized Goolge Sling parser for semantic role parsing",
+            "links": [
+                {
+                    "url": "http://aics.nctu.me:3000/",
+                    "icon-url": "assets/icons/aics-icon.png"
+                }
+            ],
+            "background-img": "https://i.imgur.com/ZKLCnjc.png",
+            "tags": [0,2]
+        }, {
             "title": "Plants Identification",
             "url": "https://github.com/CryoliteZ/Plants-Identification",
             "description": " Plants Recognition Project to classify and detect 240 Taiwan endemic plant species (with chatbot implementation)",
@@ -43,19 +55,6 @@
             ],
             "background-img": "images/video2text.gif",
             "tags": [0]
-        
-        },
-        {
-            "title": "Movie Recommender System",
-            "description": " A Movie Recommender System, implemented with MF and NN-based methods",
-            "url": "https://github.com/CryoliteZ/Movie-Recommender-System",
-            "links": [
-                {
-                    "url": "https://github.com/CryoliteZ/Movie-Recommender-System",
-                    "icon-url": "assets/icons/github-icon.png"
-                }
-            ],
-            "background-img": "images/recommender_demo.png"
         
         },
         {
