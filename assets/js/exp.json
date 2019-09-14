@@ -1,6 +1,11 @@
 {
     "work":[
         {
+            "at": "ASUS, ASUS Intelligent Cloud Service",
+            "title": "Data Engineering Intern",
+            "time": "May 2019 - Jul 2019"
+        },
+        {
             "at": "IBM Taiwan, UX team",
             "title": "Software Engineering Intern",
             "time": "Aug 2017 - Jun 2018"
@@ -23,16 +28,16 @@
     ],
     "event":[
         {
-            "at": "Taipei Ethereum Meetup",
-            "title": "Writer",
-            "time": "Mar 2017 - Present",
-            "link": "https://medium.com/taipei-ethereum-meetup"
-        },
-        {
             "at": "NTU Open Source Community",
             "title": "Developer",
-            "time": "2016 - Present",
+            "time": "2016 - 2019",
             "link": "https://ntuosc.org/"
+        },
+        {
+            "at": "Taipei Ethereum Meetup",
+            "title": "Writer",
+            "time": "Mar 2017 - Dec 2018",
+            "link": "https://medium.com/taipei-ethereum-meetup"
         },
         {
             "at": "Cobinhood Blockchain DApp Hackathon",
@@ -49,7 +54,7 @@
         {
             "at": "COSCUP",
             "title": "Participant",
-            "time": "2017, 2018",
+            "time": "2017, 2018, 2019",
             "link": "http://blog.coscup.org/"
         },
         
@@ -57,12 +62,6 @@
             "at": "Code.org",
             "title": "Volunteer Interpreter",
             "time": "Mar 2017 - Jun 2017"
-        },
-        {
-            "at": "Make NTU Hackathon",
-            "title": "Participant",
-            "time": "2017",
-            "link":"https://www.facebook.com/makentu.ntuee/"
         },
         {
             "at": "Innovation Café",

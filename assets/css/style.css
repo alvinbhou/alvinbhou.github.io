@@ -250,6 +250,10 @@ body.dark .main-desc-icon:hover{
     justify-content: center;
 }
 
+.flex-space{
+    justify-content: space-between;
+}
+
 
 
 .center-row{
