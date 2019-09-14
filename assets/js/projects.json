@@ -9,6 +9,10 @@
                 {
                     "url": "http://aics.nctu.me:3000/",
                     "icon-url": "assets/icons/aics-icon.png"
+                },
+                {
+                    "url": "https://github.com/CryoliteZ/Multitask-Learning-BERT",
+                    "icon-url": "assets/icons/github-icon.png"
                 }
             ],
             "background-img": "https://i.imgur.com/ZKLCnjc.png",
