@@ -1,12 +1,15 @@
 {
-    "work":[
-        {
+    "work": [{
+            "at": "Apple",
+            "title": "Software Engineer (Machine Learning) Intern",
+            "time": "Jun 2020 - Sep 2020"
+        }, {
             "at": "ASUS, ASUS Intelligent Cloud Service",
-            "title": "Data Engineering Intern",
+            "title": "Software Engineer (Machine Learning) Intern",
             "time": "May 2019 - Jul 2019"
         },
         {
-            "at": "IBM Taiwan, UX team",
+            "at": "IBM Taiwan",
             "title": "Software Engineering Intern",
             "time": "Aug 2017 - Jun 2018"
         },
@@ -26,8 +29,7 @@
             "time": "Sep 2015 - Jun 2016"
         }
     ],
-    "event":[
-        {
+    "event": [{
             "at": "NTU Open Source Community",
             "title": "Developer",
             "time": "2016 - 2019",
@@ -43,7 +45,7 @@
             "at": "Cobinhood Blockchain DApp Hackathon",
             "title": "Participant, 3rd place",
             "time": "Dec 2018",
-            "link":"https://dexon.org/hackathon"
+            "link": "https://dexon.org/hackathon"
         },
         {
             "at": "g0v Summit",
@@ -57,7 +59,7 @@
             "time": "2017, 2018, 2019",
             "link": "http://blog.coscup.org/"
         },
-        
+
         {
             "at": "Code.org",
             "title": "Volunteer Interpreter",
@@ -70,5 +72,5 @@
             "link": "http://innovate.im.ntu.edu.tw/InnovationCafe"
         }
     ]
-    
+
 }
