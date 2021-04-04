@@ -1,7 +1,7 @@
 [{
         "category": "Selected Projects",
         "lists": [{
-                "title": "Recommendation Website for CS Graduate Programs",
+                "title": "Recommendation System for CS Graduate Programs",
                 "description": "Built APIs with FastAPI and Postgres that returns personalized program recommendations based on a student’s background",
                 "description-long": "<b>[FastAPI, PostgreSQL, Docker, Swagger Docs] </b><br> Built APIs that returns personalized grad program recommendation results, based on students’ background and admission history",
 
@@ -18,8 +18,8 @@
                         "icon-url": "assets/icons/github-icon.png"
                     }
                 ],
-                "background-img": "https://i.imgur.com/pN9vsDB.png",
-                "tags": [2, 3]
+                "background-img": "images/ptt_demo.png",
+                "tags": [2, 3, 4]
             }, {
                 "title": "KMF Unblock Extension",
                 "description": "A Chrome and Firefox extension that bypasses KMF region restriction",
@@ -42,34 +42,28 @@
                     }
                 ],
                 "background-img": "https://github.com/CryoliteZ/KMF-Unblock-Extension/blob/master/icons/kmf-unblock-icon-128.png?raw=False",
-                "tags": [2, 3]
-            }, {
-                "title": "Nature Language Understanding with BERT and Sling",
-                "url": "https://github.com/CryoliteZ/Multitask-Learning-BERT",
-                "description": "<b>[Pytorch, Docker, Azure Pipeline]  </b><br>Implemented Multi-Task Learning BERT models to predict speech acts. Optimized Google Sling parser for semantic role parsing. <br>Deployed all models as RESTful API servics using docker",
-                "links": [{
-                    "url": "https://github.com/CryoliteZ/Multitask-Learning-BERT",
-                    "icon-url": "assets/icons/github-icon.png"
-                }],
-                "background-img": "https://i.imgur.com/ZKLCnjc.png",
-                "tags": [0, 2]
+                "tags": [2, 4]
             },
             {
-                "title": "Sweet Bot",
-                "description": "<b>[Volunteer Project funded by IBM][Node.js, IBM Watson]</b><br>A LINE chatbot to help a visually impaired <a href=\"https://www.facebook.com/sweet51909/\">cafe owner</a>, integrated with IBM Watson Assistant",
-                "url": "https://github.com/CryoliteZ/sweet-bot",
+                "title": "0x Donate",
+                "description": "An Ethereum donation service for streamers",
+                "description-long": "<b>[Ethereum Smart Contract, Web3.js, React]  </b><br>A fully decentralized cross-platform donation service for streamers and viewers. Based on Ethereum smart contract",
+                "url": "https://0xdonate.io",
                 "links": [{
-                        "url": "https://line.me/R/ti/p/BG8sHhWSe6",
-                        "icon-url": "assets/icons/line-icon.png"
+                        "url": "https://0xdonate.io/",
+                        "icon-url": "/assets/icons/0xdonate-icon.png"
                     },
                     {
-                        "url": "https://github.com/CryoliteZ/sweet-bot",
+                        "url": "https://medium.com/taipei-ethereum-meetup/0xdonate-an-ethereum-donate-service-for-streamers-a370f2b8f488",
+                        "icon-url": "assets/icons/medium-icon.png"
+                    }, {
+                        "url": "https://github.com/CryoliteZ/0xDonate",
                         "icon-url": "assets/icons/github-icon.png"
                     }
                 ],
-                "background-img": "images/sweetbot_demo.jpg",
-                "tags": [1, 3]
+                "background-img": "images/0xdonate_demo.png"
             }
+           
         ]
     }, {
         "category": "Machine Learning and Deep Learning",
@@ -104,44 +98,6 @@
         ]
     },
     {
-        "category": "Smart Contract and DApps",
-        "lists": [{
-            "title": "dEXonation",
-            "description": "An DEXON donation service for streamers",
-            "description-long": "<b>[3rd at Cobinhood Blockchain DApp Hackathon] </b><br>An improved solution for better streaming donation experience, providing low-latency and high TPS service. Powered by DEXON and Smart Contract",
-            "url": "https://cryolite.me/dEXonation",
-            "links": [{
-                    "url": "https://cryolite.me/dEXonation",
-                    "icon-url": "images/deEXonation_demo.png"
-                },
-                {
-                    "url": "https://github.com/CryoliteZ/dEXonation",
-                    "icon-url": "assets/icons/github-icon.png"
-                }
-            ],
-            "background-img": "images/deEXonation_demo.png"
-        }, {
-            "title": "0x Donate",
-            "description": "An Ethereum donation service for streamers",
-            "description-long": "<b>[Web3.js, React]  </b><br>A fully decentralized cross-platform donation service for streamers and viewers. Based on Ethereum smart contract",
-            "url": "https://0xdonate.io",
-            "links": [{
-                    "url": "https://0xdonate.io/",
-                    "icon-url": "/assets/icons/0xdonate-icon.png"
-                },
-                {
-                    "url": "https://medium.com/taipei-ethereum-meetup/0xdonate-an-ethereum-donate-service-for-streamers-a370f2b8f488",
-                    "icon-url": "assets/icons/medium-icon.png"
-                }, {
-                    "url": "https://github.com/CryoliteZ/0xDonate",
-                    "icon-url": "assets/icons/github-icon.png"
-                }
-            ],
-            "background-img": "images/0xdonate_demo.png"
-        }]
-
-    },
-    {
         "category": "Chatbot and Volunteer Supporting Projects",
         "lists": [{
                 "title": "NTU Course Bot",
@@ -165,7 +121,7 @@
                     }
                 ],
                 "background-img": "images/ntucoursebot_demo.jpg",
-                "tags": [1, 3]
+                "tags": [1]
             },
             {
                 "title": "Digital Collection Autocomplete",
@@ -183,7 +139,7 @@
                     }
                 ],
                 "background-img": "images/dac_demo.jpg",
-                "tags": [2, 3]
+                "tags": [2]
             }
         ]
     },
@@ -209,21 +165,6 @@
                 "background-img": "images/MaTerialgram.png",
                 "tags": [2]
             },
-
-            {
-                "title": "GPUMining Ethereum Pool",
-                "description": "Taiwan's largest Ethereum mining pool website",
-                "url": "https://eth-tw.gpumine.org/",
-                "links": [{
-                    "url": "https://eth-tw.gpumine.org/",
-                    "icon-url": "assets/icons/gpumine-icon.png",
-                    "dark-icon-url": "assets/icons/gpumine-icon-dark.png"
-                }],
-                "background-img": "images/gpumine-pool_demo.png",
-                "tags": [2]
-            },
-
-
             {
                 "title": "Cloudplay Story Map",
                 "description": "A geographic based photo gallery for Cloudplay, Taiwan's largest educational media platform",
