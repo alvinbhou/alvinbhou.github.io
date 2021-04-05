@@ -756,13 +756,14 @@
 /* Basic */
 
 	body {
-		/* background-image: url("images/overlay.png"), url("images/bg_main.jpg"); */
-		background: #333;
+		background-image: url("images/overlay.png"), url("images/bg_color.jpg");
+		/* background: #4056a1; */
+		/* background: #0074e1; */
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		color: #777777;
+		/* color: #777777; */
 		-webkit-transition: background-image 0.3s linear;
 	}
 	body.dark {
