@@ -1122,12 +1122,12 @@
 
 	#footer {
 		color: #ccc;
-		color: rgba(255, 255, 255, 0.45);
+		color: rgba(255, 255, 255, 0.9);
 	}
 
 		#footer a {
 			color: #ddd;
-			color: rgba(255, 255, 255, 0.65);
+			color: rgba(255, 255, 255, 0.75);
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
 			-ms-transition: color .25s ease-in-out;

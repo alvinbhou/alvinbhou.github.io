@@ -211,10 +211,6 @@ body.dark .main-desc-icon:hover {
     background-color: #FFE0B2;
 }
 
-
-
-
-
 .proj-list-title {
     margin-bottom: 3px;
 }
@@ -618,11 +614,20 @@ tl-item.active .tl-dot:before {
     font-size: 1.3em;
 }
 
+/* desktop */
 @media screen and (min-width: 737px) {
-
     .main-timeline {
         width: 80%;
         margin: auto;
+    }
+}
+
+/* phone */
+@media screen and (max-width: 737px) {
+    #wrapper {
+        background-image: url("images/overlay.png"), url("images/bg_color.jpg");
+        background-repeat: repeat, no-repeat;
+        background-size: auto, 100% 100%;
     }
 }
 
