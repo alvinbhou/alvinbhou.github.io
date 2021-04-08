@@ -192,11 +192,11 @@ body.dark .main-desc-icon:hover {
 }
 
 .proj-list-tag.tag0 {
-    background-color: #81d4fa;
+    background-color: #BBDEFB;
 }
 
 .proj-list-tag.tag1 {
-    background-color: #ffd600;
+    background-color: #FFF59D;
 }
 
 .proj-list-tag.tag2 {
@@ -208,7 +208,15 @@ body.dark .main-desc-icon:hover {
 }
 
 .proj-list-tag.tag4 {
+    background-color: #FFCDD2;
+}
+
+.proj-list-tag.tag5 {
     background-color: #FFE0B2;
+}
+
+.proj-list-tag.tag6 {
+    background-color: #E1BEE7;
 }
 
 .proj-list-title {
