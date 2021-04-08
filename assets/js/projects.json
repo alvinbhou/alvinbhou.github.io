@@ -30,7 +30,7 @@
                         "icon-url": "assets/icons/github-icon.png"
                     }
                 ],
-                "background-img": "images/huggingface-icon.png",
+                "background-img": "assets/icons/huggingface-icon.png",
                 "tags": [0]
             },
             {
