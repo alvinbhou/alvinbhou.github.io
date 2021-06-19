@@ -1,31 +1,44 @@
 [{
         "category": "Selected Projects",
         "lists": [{
-                "title": "Recommendation Website for CS Graduate Programs",
+                "title": "Recommendation System for CS Graduate Programs",
                 "description": "Built APIs with FastAPI and Postgres that returns personalized program recommendations based on a student’s background",
                 "description-long": "<b>[FastAPI, PostgreSQL, Docker, Swagger Docs] </b><br> Built APIs that returns personalized grad program recommendation results, based on students’ background and admission history",
 
-                "url": "https://cryolite.me/studyabroad/",
+                "url": "https://alvinbhou.github.io/studyabroad/",
                 "links": [
 
                     {
-                        "url": "https://cryolite.me/studyabroad/",
+                        "url": "https://alvinbhou.github.io/studyabroad/",
                         "icon-url": "assets/icons/DAC-icon.png",
                         "dark-icon-url": "assets/icons/DAC-icon-dark.png"
                     },
                     {
-                        "url": "https://github.com/CryoliteZ/ptt-studyabroad-api",
+                        "url": "https://github.com/alvinbhou/ptt-studyabroad-api",
                         "icon-url": "assets/icons/github-icon.png"
                     }
                 ],
-                "background-img": "https://i.imgur.com/pN9vsDB.png",
-                "tags": [2, 3]
-            }, {
+                "background-img": "images/ptt_demo.png",
+                "tags": [2, 3, 6]
+            }, 
+            {
+                "title": "Ensemble & Multitask Learning w/ BERT for Question Answering",
+                "url": "https://github.com/alvinbhou/Stanford-CS224n-QA-Project/",
+                "description": "<b>[PyTorch, SQuAD2.0]  </b><br>Fine-tuned BERT models with auxuliary tasks for question answering on SQuAD 2.0, ranked top 3 in CS224n class leaderboard",
+                "links": [{
+                        "url": "https://github.com/alvinbhou/Stanford-CS224n-QA-Project",
+                        "icon-url": "assets/icons/github-icon.png"
+                    }
+                ],
+                "background-img": "assets/icons/huggingface-icon.png",
+                "tags": [0]
+            },
+            {
                 "title": "KMF Unblock Extension",
                 "description": "A Chrome and Firefox extension that bypasses KMF region restriction",
-                "description-long": "<b>[Over 15000+ users]  [Web Extension]  </b><br> A Chrome and Firefox extension that bypasses KMF region restriction, which helps students prepare for TOEFL/GRE tests",
+                "description-long": "<b>[Over 20000+ users, Web Extension]  </b><br> A Chrome and Firefox extension that bypasses KMF region restriction, which helps students prepare for TOEFL/GRE tests",
 
-                "url": "https://github.com/CryoliteZ/KMF-Unblock-Extension",
+                "url": "https://github.com/alvinbhou/KMF-Unblock-Extension",
                 "links": [
 
                     {
@@ -37,52 +50,47 @@
                         "icon-url": "https://i.imgur.com/M6KOVju.png"
                     },
                     {
-                        "url": "https://github.com/CryoliteZ/KMF-Unblock-Extension",
+                        "url": "https://github.com/alvinbhou/KMF-Unblock-Extension",
                         "icon-url": "assets/icons/github-icon.png"
                     }
                 ],
-                "background-img": "https://github.com/CryoliteZ/KMF-Unblock-Extension/blob/master/icons/kmf-unblock-icon-128.png?raw=False",
-                "tags": [2, 3]
-            }, {
-                "title": "Nature Language Understanding with BERT and Sling",
-                "url": "https://github.com/CryoliteZ/Multitask-Learning-BERT",
-                "description": "<b>[Pytorch, Docker, Azure Pipeline]  </b><br>Implemented Multi-Task Learning BERT models to predict speech acts. Optimized Google Sling parser for semantic role parsing. <br>Deployed all models as RESTful API servics using docker",
-                "links": [{
-                    "url": "https://github.com/CryoliteZ/Multitask-Learning-BERT",
-                    "icon-url": "assets/icons/github-icon.png"
-                }],
-                "background-img": "https://i.imgur.com/ZKLCnjc.png",
-                "tags": [0, 2]
+                "background-img": "https://github.com/alvinbhou/KMF-Unblock-Extension/blob/master/icons/kmf-unblock-icon-128.png?raw=False",
+                "tags": [2, 5]
             },
             {
-                "title": "Sweet Bot",
-                "description": "<b>[Volunteer Project funded by IBM][Node.js, IBM Watson]</b><br>A LINE chatbot to help a visually impaired <a href=\"https://www.facebook.com/sweet51909/\">cafe owner</a>, integrated with IBM Watson Assistant",
-                "url": "https://github.com/CryoliteZ/sweet-bot",
+                "title": "0x Donate",
+                "description": "An Ethereum donation service for streamers",
+                "description-long": "<b>[Ethereum Smart Contract, Web3.js, React]  </b><br>A fully decentralized cross-platform donation service for streamers and viewers. Based on Ethereum smart contract",
+                "url": "https://0xdonate.io",
                 "links": [{
-                        "url": "https://line.me/R/ti/p/BG8sHhWSe6",
-                        "icon-url": "assets/icons/line-icon.png"
+                        "url": "https://0xdonate.io/",
+                        "icon-url": "/assets/icons/0xdonate-icon.png"
                     },
                     {
-                        "url": "https://github.com/CryoliteZ/sweet-bot",
+                        "url": "https://medium.com/taipei-ethereum-meetup/0xdonate-an-ethereum-donate-service-for-streamers-a370f2b8f488",
+                        "icon-url": "assets/icons/medium-icon.png"
+                    }, {
+                        "url": "https://github.com/alvinbhou/0xDonate",
                         "icon-url": "assets/icons/github-icon.png"
                     }
                 ],
-                "background-img": "images/sweetbot_demo.jpg",
-                "tags": [1, 3]
+                "background-img": "images/0xdonate_demo.png",
+                "tags": [2, 4]
             }
+           
         ]
     }, {
         "category": "Machine Learning and Deep Learning",
         "lists": [{
                 "title": "Plants Identification",
-                "url": "https://github.com/CryoliteZ/Plants-Identification",
+                "url": "https://github.com/alvinbhou/Plants-Identification",
                 "description": "<b>[Keras, Telepot]  </b><br>Plants Recognition Project to classify and detect 240 Taiwan endemic plant species (with chatbot implementation)",
                 "links": [{
                         "url": "https://t.me/Plant_Classification_Bot",
                         "icon-url": "assets/icons/telegram-icon.png"
                     },
                     {
-                        "url": "https://github.com/CryoliteZ/Plants-Identification",
+                        "url": "https://github.com/alvinbhou/Plants-Identification",
                         "icon-url": "assets/icons/github-icon.png"
                     }
                 ],
@@ -92,9 +100,9 @@
             {
                 "title": "Video-to-Text",
                 "description": " An Encoder-Decoder Model for Sequence-to-Sequence learning: Video2Text",
-                "url": "https://github.com/CryoliteZ/Video2Text",
+                "url": "https://github.com/alvinbhou/Video2Text",
                 "links": [{
-                    "url": "https://github.com/CryoliteZ/Video2Text",
+                    "url": "https://github.com/alvinbhou/Video2Text",
                     "icon-url": "assets/icons/github-icon.png"
                 }],
                 "background-img": "images/video2text.gif",
@@ -104,51 +112,33 @@
         ]
     },
     {
-        "category": "Smart Contract and DApps",
+        "category": "Web Apps, Chatbot and Volunteer Supporting Projects",
         "lists": [{
-            "title": "dEXonation",
-            "description": "An DEXON donation service for streamers",
-            "description-long": "<b>[3rd at Cobinhood Blockchain DApp Hackathon] </b><br>An improved solution for better streaming donation experience, providing low-latency and high TPS service. Powered by DEXON and Smart Contract",
-            "url": "https://cryolite.me/dEXonation",
+            "title": "MaTerialgram",
+            "description": "Extension to redesign Telegram with the new Material Design, providing dark and light theme",
+            "url": "https://github.com/alvinbhou/MaTerialgram/",
             "links": [{
-                    "url": "https://cryolite.me/dEXonation",
-                    "icon-url": "images/deEXonation_demo.png"
+                    "url": "https://chrome.google.com/webstore/detail/aebgckccbkgbeigkkdglihleeipanoan",
+                    "icon-url": "https://i.imgur.com/zv5G8Ly.png"
                 },
                 {
-                    "url": "https://github.com/CryoliteZ/dEXonation",
+                    "url": "https://addons.mozilla.org/en-US/firefox/addon/materialgram/",
+                    "icon-url": "https://i.imgur.com/M6KOVju.png"
+                },
+                {
+                    "url": "https://github.com/alvinbhou/MaTerialgram/",
                     "icon-url": "assets/icons/github-icon.png"
                 }
             ],
-            "background-img": "images/deEXonation_demo.png"
-        }, {
-            "title": "0x Donate",
-            "description": "An Ethereum donation service for streamers",
-            "description-long": "<b>[Web3.js, React]  </b><br>A fully decentralized cross-platform donation service for streamers and viewers. Based on Ethereum smart contract",
-            "url": "https://0xdonate.io",
-            "links": [{
-                    "url": "https://0xdonate.io/",
-                    "icon-url": "/assets/icons/0xdonate-icon.png"
-                },
-                {
-                    "url": "https://medium.com/taipei-ethereum-meetup/0xdonate-an-ethereum-donate-service-for-streamers-a370f2b8f488",
-                    "icon-url": "assets/icons/medium-icon.png"
-                }, {
-                    "url": "https://github.com/CryoliteZ/0xDonate",
-                    "icon-url": "assets/icons/github-icon.png"
-                }
-            ],
-            "background-img": "images/0xdonate_demo.png"
-        }]
-
-    },
-    {
-        "category": "Chatbot and Volunteer Supporting Projects",
-        "lists": [{
+            "background-img": "images/MaTerialgram.png",
+            "tags": [2, 6]
+        },
+        {
                 "title": "NTU Course Bot",
                 "description": "Cross-platform Chatbot providing NTU course information (台大課程機器人)",
                 "description-long": "<b>[Campus Supporting Tool]    </b><br> Cross-platform Chatbot providing NTU courses information and historical grade distribution (Works on FB/Line/Telegram)",
 
-                "url": "https://github.com/CryoliteZ/NTU-Course-Bot",
+                "url": "https://github.com/alvinbhou/NTU-Course-Bot",
                 "links": [
 
                     {
@@ -160,90 +150,31 @@
                         "icon-url": "assets/icons/telegram-icon.png"
                     },
                     {
-                        "url": "https://github.com/CryoliteZ/NTU-Course-Bot",
+                        "url": "https://github.com/alvinbhou/NTU-Course-Bot",
                         "icon-url": "assets/icons/github-icon.png"
                     }
                 ],
                 "background-img": "images/ntucoursebot_demo.jpg",
-                "tags": [1, 3]
+                "tags": [1]
             },
             {
                 "title": "Digital Collection Autocomplete",
                 "description": "A supporting project for Ministry of Culture's 數位典藏完備計畫",
-                "description-long": "<b>[Ministry of Culture Supporting Tool]</b><br> A supporting project for Ministry of Culture's 'Digital Collection Plan'. Helps art researchers to improve productivity.",
-                "url": "https://github.com/CryoliteZ/Digital-Collection-Autocomplete",
+                "description-long": "<b>[Taiwan Ministry of Culture Supporting Tool]</b><br> A supporting project for Ministry of Culture's 'Digital Collection Plan'. Helps art researchers to improve productivity.",
+                "url": "https://github.com/alvinbhou/Digital-Collection-Autocomplete",
                 "links": [{
-                        "url": "https://cryolitez.github.io/Digital-Collection-Autocomplete",
+                        "url": "https://alvinbhou.github.io/Digital-Collection-Autocomplete",
                         "icon-url": "assets/icons/DAC-icon.png",
                         "dark-icon-url": "assets/icons/DAC-icon-dark.png"
                     },
                     {
-                        "url": "https://github.com/CryoliteZ/Digital-Collection-Autocomplete",
+                        "url": "https://github.com/alvinbhou/Digital-Collection-Autocomplete",
                         "icon-url": "assets/icons/github-icon.png"
                     }
                 ],
                 "background-img": "images/dac_demo.jpg",
-                "tags": [2, 3]
-            }
-        ]
-    },
-    {
-        "category": "Web Apps and Extensions",
-        "lists": [{
-                "title": "MaTerialgram",
-                "description": "Extension to redesign Telegram with the new Material Design, providing dark and light theme",
-                "url": "https://github.com/CryoliteZ/MaTerialgram/",
-                "links": [{
-                        "url": "https://chrome.google.com/webstore/detail/aebgckccbkgbeigkkdglihleeipanoan",
-                        "icon-url": "https://i.imgur.com/zv5G8Ly.png"
-                    },
-                    {
-                        "url": "https://addons.mozilla.org/en-US/firefox/addon/materialgram/",
-                        "icon-url": "https://i.imgur.com/M6KOVju.png"
-                    },
-                    {
-                        "url": "https://github.com/CryoliteZ/MaTerialgram/",
-                        "icon-url": "assets/icons/github-icon.png"
-                    }
-                ],
-                "background-img": "images/MaTerialgram.png",
-                "tags": [2]
-            },
-
-            {
-                "title": "GPUMining Ethereum Pool",
-                "description": "Taiwan's largest Ethereum mining pool website",
-                "url": "https://eth-tw.gpumine.org/",
-                "links": [{
-                    "url": "https://eth-tw.gpumine.org/",
-                    "icon-url": "assets/icons/gpumine-icon.png",
-                    "dark-icon-url": "assets/icons/gpumine-icon-dark.png"
-                }],
-                "background-img": "images/gpumine-pool_demo.png",
-                "tags": [2]
-            },
-
-
-            {
-                "title": "Cloudplay Story Map",
-                "description": "A geographic based photo gallery for Cloudplay, Taiwan's largest educational media platform",
-                "url": "https://github.com/CryoliteZ/storymapweb",
-                "links": [
-
-                    {
-                        "url": "https://cloudplay.fetscs.tw/channel/view?id=e1a7f785-9bd3-4b2f-973a-a5e7d619fa6b&tab=storymap",
-                        "icon-url": "assets/icons/storymap-icon.png"
-                    },
-                    {
-                        "url": "https://github.com/CryoliteZ/storymapweb",
-                        "icon-url": "assets/icons/github-icon.png"
-                    }
-                ],
-                "background-img": "images/storymap_demo.png",
                 "tags": [2]
             }
         ]
     }
-
-
 ]
